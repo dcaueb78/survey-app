@@ -1,5 +1,5 @@
 module.exports = {
-  presset: 'ts-jest',
+  preset: 'ts-jest',
   roots: ['<rootDir>/src'],
   collectCoverageFrom: [
     '<rootDir>/src/**/*.ts',
