@@ -22,5 +22,10 @@ module.exports = {
     '@typescript-eslint/return-await': 'off',
     '@typescript-eslint/restrict-template-expressions': 'off',
     '@typescript-eslint/method-signature-style': 'off',
+    'import/extensions': 'off',
+    'import/no-unresolved': 'off',
+    'import/prefer-default-export': 'off',
+    'class-methods-use-this': 'off',
+    'no-unused-vars': 'off',
   },
 };
