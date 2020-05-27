@@ -15,5 +15,12 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: ['@typescript-eslint', 'jest'],
-  rules: {},
+  rules: {
+    '@typescript-eslint/strict-boolean-expressions': 'off',
+    '@typescript-eslint/consistenrt-type-definitions': 'off',
+    '@typescript-eslint/comma-spacing': 'off',
+    '@typescript-eslint/return-await': 'off',
+    '@typescript-eslint/restrict-template-expressions': 'off',
+    '@typescript-eslint/method-signature-style': 'off',
+  },
 };

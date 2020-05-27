@@ -1,7 +1,11 @@
 module.exports = {
   presset: 'ts-jest',
   roots: ['<rootDir>/src'],
-  collectCoverageFrom: ['<rootDir>/src/**/*.ts'],
+  collectCoverageFrom: [
+    '<rootDir>/src/**/*.ts',
+    '!<rootDir>/src/**/*-protocols.ts',
+    '!**/protocols/**',
+  ],
   coverageDirectory: 'coverage',
   testEnvironment: 'node',
   transform: {
