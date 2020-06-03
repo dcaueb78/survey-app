@@ -28,5 +28,6 @@ module.exports = {
     'class-methods-use-this': 'off',
     'no-unused-vars': 'off',
     'no-restricted-syntax': 'off',
+    'max-classes-per-file': 'off',
   },
 };
