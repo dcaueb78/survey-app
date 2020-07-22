@@ -20,7 +20,8 @@
     "lint-staged": "^10.2.4",
     "ts-jest": "^26.0.0",
     "typescript": "^3.9.3",
-    "@types/validator": "^13.0.0"
+    "@types/validator": "^13.0.0",
+    "@types/bcrypt": "^3.0.0"
   },
   "scripts": {
     "test": "jest --passWithNoTests --silent --runInBand",
@@ -31,6 +32,7 @@
     "test:ci": "npm test -- --coverage"
   },
   "dependencies": {
+    "bcrypt": "^5.0.0",
     "validator": "^13.0.0"
   }
 }
