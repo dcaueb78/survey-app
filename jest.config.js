@@ -1,5 +1,5 @@
 module.exports = {
-  preset: 'ts-jest',
+  preset: ['ts-jest', '@shelf/jest-mongodb'],
   roots: ['<rootDir>/src'],
   collectCoverageFrom: [
     '<rootDir>/src/**/*.ts',
